@@ -1,0 +1,53 @@
+.Main {
+  width: 100%;
+}
+
+.Main-container {
+  padding: 0 3em;
+  margin: 0 auto;
+}
+
+.Main-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.Main-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.Main-ul {
+  list-style-type: none;
+}
+.Main-ul li {
+  font-weight: 200;
+  line-height: 0.9em;
+}
+
+.col-1 {
+  width: 40%;
+}
+
+.col-2 {
+  display: flex;
+  align-items: center;
+}
+
+.Main-title {
+  margin-top: 2em;
+  font-size: 80px;
+  text-align: right;
+  text-transform: uppercase;
+  line-height: 0.8em;
+  letter-spacing: -0.05em;
+}
+.Main-paragraph:not(:first-child) {
+  font-weight: 300;
+}
+
+.Main-paragraph.bold {
+  font-weight: 500;
+}

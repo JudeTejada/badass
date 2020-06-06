@@ -1,0 +1,18 @@
+.Navigation-bar {
+  background: #333;
+  padding: 1em 2em;
+}
+.Navigation-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Navigation-link a {
+  text-decoration: none;
+  font-family: inherit;
+  color: rgb(192, 192, 192);
+}
+
+.Navigation-active {
+  color: #fff !important;
+}

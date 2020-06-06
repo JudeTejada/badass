@@ -1,0 +1,29 @@
+.layout-2 {
+  margin: 2em auto;
+  padding: 0 2em;
+}
+
+.layout-2-title {
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+button {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  margin-top: 3em;
+}
+button a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 16px;
+}
+button a:hover {
+  text-decoration: none;
+  color: #777;
+}
